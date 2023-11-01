@@ -1,0 +1,6 @@
+framework module Pods_new_Job_Platform_new_Job_PlatformUITests {
+  umbrella header "Pods-new-Job-Platform-new-Job-PlatformUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
