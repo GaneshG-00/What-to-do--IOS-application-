@@ -9,13 +9,18 @@ import UIKit
 import DropDown
 
 class ViewController: UIViewController {
-    @IBOutlet weak var vwDropDown:UIView!
-    @IBOutlet weak var lblTitle:UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func LoginPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "CustomerLoginSegue", sender: self)
+    }
+    
+    @IBAction func WorkerLoginPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "WorkerLoginSegue", sender: self)
+    }
+    
 }
 

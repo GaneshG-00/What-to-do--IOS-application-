@@ -11,7 +11,17 @@ import DropDown
 class workerRegistering: UIViewController {
     
     @IBOutlet weak var dropDownButton:UIView!
+    
     @IBOutlet weak var proffessionLabel: UILabel!
+    
+    @IBOutlet weak var workerEmail: UITextField!
+    
+    @IBOutlet weak var workerPassword: UITextField!
+    
+    @IBOutlet weak var confirmPassword: UITextField!
+    
+    @IBOutlet weak var workerDateOfBirth: UITextField!
+    
     let dropDown=DropDown()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,5 +39,8 @@ class workerRegistering: UIViewController {
         dropDown.show()
     }
 
-   
+    @IBAction func RegisterPressed(_ sender: UIButton) {
+        
+    }
+    
 }
